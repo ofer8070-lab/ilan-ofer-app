@@ -3,7 +3,7 @@ import {initializeApp} from 'https://www.gstatic.com/firebasejs/11.6.0/firebase-
 import {getAuth,GoogleAuthProvider,signInWithPopup,onAuthStateChanged} from 'https://www.gstatic.com/firebasejs/11.6.0/firebase-auth.js';
 import {getFirestore,doc,setDoc,getDocs,collection,serverTimestamp} from 'https://www.gstatic.com/firebasejs/11.6.0/firebase-firestore.js';
 const names=['סופיאן','נביל','עסב','קווינד','זיאד','שאהר','ענתר','מודי'];
-const config=null; // REQUIRED: configure Firebase project before use
+const config={"apiKey":"AIzaSyBptu4EVeypaCiGRDA4PRf8lh7AaQXbR4c","authDomain":"dalton-employees.firebaseapp.com","projectId":"dalton-employees","storageBucket":"dalton-employees.firebasestorage.app","messagingSenderId":"66433309569","appId":"1:66433309569:web:0ae8654c6a8376b080a680","measurementId":"G-J44CSVN3VJ"};
 const app=config?initializeApp(config):null;
 const db=app?getFirestore(app):null;
 const auth=app?getAuth(app):null;
