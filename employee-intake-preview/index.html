@@ -5,7 +5,7 @@
 </style></head><body><main>
 <div class="brandname">דור אלון</div><h1>עובד חדש | موظف جديد</h1><p class="muted" style="text-align:center">גרסה 6</p>
 <div id="worker">
-<p class="notice">פרטיך יישמרו במערכת לצורך טיפול במועמדות לעבודה. רק מנהל מורשה יכול לצפות בהם.<br>سيتم حفظ بياناتك لغرض مراجعة طلب التوظيف، ولا يمكن الاطلاع عليها إلا من قبل مدير مخوّل.</p>
+
 <form id="form">
 <div class="field"><label>שם ומשפחה | الاسم واللقب</label><input name="fullName" required maxlength="100" autocomplete="name"></div>
 <div class="field"><label>תעודת זהות | رقم الهوية</label><input name="identity" required inputmode="numeric" pattern="[0-9]{9}" minlength="9" maxlength="9" autocomplete="off"></div>
@@ -13,7 +13,7 @@
 <div class="field"><label>טלפון | رقم الهاتف</label><input name="phone" required type="tel" minlength="9" maxlength="20" autocomplete="tel"></div>
 <div class="field"><label>תאריך לידה | تاريخ الميلاد</label><input name="birthDate" id="birth" required type="date"><p class="age" id="age">גיל | العمر: -</p></div>
 <div class="field"><label>עיקולים בבנק | حجوزات على الحساب البنكي</label><select name="lien" required><option value="">בחר | اختر</option><option value="כן">כן | نعم</option><option value="לא">לא | لا</option></select></div>
-<p class="notice">תאריך ראיון יימסר לאחר מילוי הטופס.<br>سيتم إبلاغك بموعد المقابلة بعد تعبئة النموذج.</p>
+
 <button id="send" type="submit">שלח טופס | إرسال النموذج</button><div id="sendStatus" aria-live="polite"></div>
 </form><button class="secondary" id="openAdmin" type="button">מנהל | المدير</button></div>
 <section id="admin">
